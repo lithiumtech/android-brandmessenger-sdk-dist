@@ -1,0 +1,7 @@
+install:
+- FILE_COMMONS_AAR="-Dfile=brandmessengercommons-0.1.0.aar"
+- FILE_CORE_AAR="-Dfile=brandmessengercore-0.1.0.aar"
+- FILE_UI_AAR="-Dfile=brandmessengerui-0.1.0.aar"
+- mvn install:install-file $FILE_COMMONS_AAR -DgroupId=com.github.lithiumtech.android-brandmessenger-sdk-dist -DartifactId=commons -Dversion=0.1.0 -Dpackaging=aar -DpomFile=brandmessengercommons-0.1.0.pom
+- mvn install:install-file $FILE_CORE_AAR -DgroupId=com.github.lithiumtech.android-brandmessenger-sdk-dist -DartifactId=core -Dversion=0.1.0 -Dpackaging=aar -DpomFile=brandmessengercore-0.1.0.pom
+- mvn install:install-file $FILE_UI_AAR -DgroupId=com.github.lithiumtech.android-brandmessenger-sdk-dist -DartifactId=ui -Dversion=0.1.0 -Dpackaging=aar -DpomFile=brandmessengerui-0.1.0.pom
