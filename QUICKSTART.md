@@ -14,8 +14,8 @@ Add jitpack repository dependencies
 
 Add gradle dependencies
 
-    implementation 'com.github.lithiumtech.android-brandmessenger-sdk-dist:brandmessengercore:0.1.2'  
-    implementation 'com.github.lithiumtech.android-brandmessenger-sdk-dist:brandmessengerui:0.1.2'
+    implementation 'com.github.lithiumtech.android-brandmessenger-sdk-dist:brandmessengercore:0.1.3'  
+    implementation 'com.github.lithiumtech.android-brandmessenger-sdk-dist:brandmessengerui:0.1.3'
 
 Add to manifest inside `application`
 
