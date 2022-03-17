@@ -14,8 +14,8 @@ Add jitpack repository dependencies
 
 Add gradle dependencies
 
-    implementation 'com.github.lithiumtech.android-brandmessenger-sdk-dist:brandmessengercore:0.1.4'  
-    implementation 'com.github.lithiumtech.android-brandmessenger-sdk-dist:brandmessengerui:0.1.4'
+    implementation 'com.github.lithiumtech.android-brandmessenger-sdk-dist:brandmessengercore:0.2.0'  
+    implementation 'com.github.lithiumtech.android-brandmessenger-sdk-dist:brandmessengerui:0.2.0'
 
 Add to manifest inside `application`
 
@@ -74,9 +74,9 @@ Initialization
 
 Login + FCM token
 
-    BrandMessengerManager.login(context, "<ACCESS_TOKEN>", new KBMCallback() {
+    BrandMessengerManager.login(context, "<ACCESS_TOKEN>", new KBMLoginHandler() {
         @Override
-        public void onSuccess(Object response) {
+        public void onSuccess(@NonNull RegistrationResponse registrationResponse, @Nullable Context context) {
             if (BrandMessengerUserPreference.getInstance(context).isRegistered()) {
                 FirebaseMessaging.getInstance().getToken().addOnCompleteListener(new OnCompleteListener<String>() {
                     @Override
@@ -99,7 +99,7 @@ Login + FCM token
         }
 
         @Override
-        public void onError(Object error) {
+        public void onFailure(@Nullable RegistrationResponse registrationResponse, @Nullable Exception exception) {
 
         }
     });

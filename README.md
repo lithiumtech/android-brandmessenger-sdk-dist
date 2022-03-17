@@ -2,8 +2,8 @@
 
 Dependency to be added for BrandMessenger ui and core:
 
-    implementation 'com.github.lithiumtech.android-brandmessenger-sdk-dist:brandmessengercore:0.1.4'
-    implementation 'com.github.lithiumtech.android-brandmessenger-sdk-dist:brandmessengerui:0.1.4'
+    implementation 'com.github.lithiumtech.android-brandmessenger-sdk-dist:brandmessengercore:0.2.0'
+    implementation 'com.github.lithiumtech.android-brandmessenger-sdk-dist:brandmessengerui:0.2.0'
 
 
 **Auth token to access lib**
