@@ -3,13 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.lithiumtech.android-brandmessenger-sdk-dist</groupId>
   <artifactId>brandmessengerui</artifactId>
-  <version>0.3.0</version>
+  <version>1.0.0</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
       <groupId>com.github.lithiumtech.android-brandmessenger-sdk-dist</groupId>
       <artifactId>brandmessengercore</artifactId>
-      <version>0.3.0</version>
+      <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.google.firebase</groupId>
@@ -69,7 +69,7 @@
     <dependency>
       <groupId>com.github.lithiumtech.android-brandmessenger-sdk-dist</groupId>
       <artifactId>brandmessengercore</artifactId>
-      <version>0.3.0</version>
+      <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.google.firebase</groupId>
