@@ -1,7 +1,7 @@
 install:
-- FILE_COMMONS_AAR="-Dfile=brandmessengercommons-1.8.2.aar"
-- FILE_CORE_AAR="-Dfile=brandmessengercore-1.8.2.aar"
-- FILE_UI_AAR="-Dfile=brandmessengerui-1.8.2.aar"
-- mvn install:install-file $FILE_COMMONS_AAR -DgroupId=com.github.lithiumtech.android-brandmessenger-sdk-dist -DartifactId=commons -Dversion=1.8.2 -Dpackaging=aar -DpomFile=brandmessengercommons-1.8.2.pom
-- mvn install:install-file $FILE_CORE_AAR -DgroupId=com.github.lithiumtech.android-brandmessenger-sdk-dist -DartifactId=core -Dversion=1.8.2 -Dpackaging=aar -DpomFile=brandmessengercore-1.8.2.pom
-- mvn install:install-file $FILE_UI_AAR -DgroupId=com.github.lithiumtech.android-brandmessenger-sdk-dist -DartifactId=ui -Dversion=1.8.2 -Dpackaging=aar -DpomFile=brandmessengerui-1.8.2.pom
+- FILE_COMMONS_AAR="-Dfile=brandmessengercommons-1.8.3.aar"
+- FILE_CORE_AAR="-Dfile=brandmessengercore-1.8.3.aar"
+- FILE_UI_AAR="-Dfile=brandmessengerui-1.8.3.aar"
+- mvn install:install-file $FILE_COMMONS_AAR -DgroupId=com.github.lithiumtech.android-brandmessenger-sdk-dist -DartifactId=commons -Dversion=1.8.3 -Dpackaging=aar -DpomFile=brandmessengercommons-1.8.3.pom
+- mvn install:install-file $FILE_CORE_AAR -DgroupId=com.github.lithiumtech.android-brandmessenger-sdk-dist -DartifactId=core -Dversion=1.8.3 -Dpackaging=aar -DpomFile=brandmessengercore-1.8.3.pom
+- mvn install:install-file $FILE_UI_AAR -DgroupId=com.github.lithiumtech.android-brandmessenger-sdk-dist -DartifactId=ui -Dversion=1.8.3 -Dpackaging=aar -DpomFile=brandmessengerui-1.8.3.pom

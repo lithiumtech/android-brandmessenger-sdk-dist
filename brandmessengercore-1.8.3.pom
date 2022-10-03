@@ -3,13 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.lithiumtech.android-brandmessenger-sdk-dist</groupId>
   <artifactId>brandmessengercore</artifactId>
-  <version>1.8.2</version>
+  <version>1.8.3</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
       <groupId>com.github.lithiumtech.android-brandmessenger-sdk-dist</groupId>
       <artifactId>brandmessengercommons</artifactId>
-      <version>1.8.2</version>
+      <version>1.8.3</version>
     </dependency>
     <dependency>
       <groupId>org.eclipse.paho</groupId>
@@ -34,7 +34,7 @@
     <dependency>
       <groupId>com.github.lithiumtech.android-brandmessenger-sdk-dist</groupId>
       <artifactId>brandmessengercommons</artifactId>
-      <version>1.8.2</version>
+      <version>1.8.3</version>
     </dependency>
   </dependencies>
 </project>
