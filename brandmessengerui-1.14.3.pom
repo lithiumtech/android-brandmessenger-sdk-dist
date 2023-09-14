@@ -1,13 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.github.lithiumtech.android-brandmessenger-sdk-dist</groupId>
+  <groupId>com.khoros.android-brandmessenger-sdk</groupId>
   <artifactId>brandmessengerui</artifactId>
   <version>1.14.3</version>
   <packaging>aar</packaging>
+  <name>brandmessengerui</name>
+  <description>Khoros Brand Messenger v2 Official Android SDK</description>
+  <url>https://github.com/lithiumtech/android-brandmessenger-sdk-dist</url>
+  <licenses>
+    <license>
+      <name>BMV2 License</name>
+      <url>https://github.com/lithiumtech/android-brandmessenger-sdk-dist/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>shubham-tewari</id>
+      <name>Shubham Tewari</name>
+      <email>shubham.tewari@khoros.com</email>
+    </developer>
+    <developer>
+      <id>srishti-R</id>
+      <name>Srishti Rohatgi</name>
+      <email>srishti.rohatgi@khoros.com</email>
+    </developer>
+    <developer>
+      <id>pkwak-sf</id>
+      <name>Paul Kwak</name>
+      <email>pkwak@khoros.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:github.com/lithiumtech/android-brandmessenger-sdk-dist.git</connection>
+    <developerConnection>scm:git:ssh://github.com/lithiumtech/android-brandmessenger-sdk-dist.git</developerConnection>
+    <url>https://github.com/lithiumtech/android-brandmessenger-sdk-dist/tree/main</url>
+  </scm>
   <dependencies>
     <dependency>
-      <groupId>com.github.lithiumtech.android-brandmessenger-sdk-dist</groupId>
+      <groupId>com.khoros.android-brandmessenger-sdk</groupId>
       <artifactId>brandmessengercore</artifactId>
       <version>1.14.3</version>
     </dependency>
@@ -82,7 +113,7 @@
       <version>28.0.0</version>
     </dependency>
     <dependency>
-      <groupId>com.github.lithiumtech.android-brandmessenger-sdk-dist</groupId>
+      <groupId>com.khoros.android-brandmessenger-sdk</groupId>
       <artifactId>brandmessengercore</artifactId>
       <version>1.14.3</version>
     </dependency>
