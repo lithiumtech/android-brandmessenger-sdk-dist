@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.khoros.android-brandmessenger-sdk</groupId>
   <artifactId>brandmessengerui</artifactId>
-  <version>1.16.2</version>
+  <version>1.16.3</version>
   <packaging>aar</packaging>
   <name>brandmessengerui</name>
   <description>Khoros Brand Messenger v2 Official Android SDK</description>
@@ -40,7 +40,7 @@
     <dependency>
       <groupId>com.khoros.android-brandmessenger-sdk</groupId>
       <artifactId>brandmessengercore</artifactId>
-      <version>1.16.2</version>
+      <version>1.16.3</version>
     </dependency>
     <dependency>
       <groupId>com.google.firebase</groupId>
@@ -130,7 +130,7 @@
     <dependency>
       <groupId>com.khoros.android-brandmessenger-sdk</groupId>
       <artifactId>brandmessengercore</artifactId>
-      <version>1.16.2</version>
+      <version>1.16.3</version>
     </dependency>
     <dependency>
       <groupId>com.google.firebase</groupId>
